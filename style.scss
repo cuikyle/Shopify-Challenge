@@ -1,0 +1,122 @@
+$white: #ffffff;
+$green: #7ab55c;
+$grey: #7b7b7b;
+$light-purple: #5c6ac4;
+$dark-purple: #000639;
+$red: #c23628;
+
+body {
+  position: relative;
+  font-family: Helvetica;
+  background-color: $dark-purple;
+  color: $white;
+}
+
+.line {
+  background-color: $green;
+  width: 30px;
+  height: 4px;
+}
+
+input,
+select {
+  background-color: $white;
+  padding: 16px;
+  border-radius: 5px;
+  color: $grey;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  display: block;
+  background-color: $light-purple;
+  padding: 16px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  color: $white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+}
+
+button:hover {
+  background-color: $grey;
+  border-color: $grey;
+}
+
+.wideness {
+  display: block;
+  max-width: 600px;
+}
+
+.title {
+  color: $white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+option {
+  border-right: $grey;
+}
+
+.formatting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  position: relative;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+  margin-top: 15%;
+  padding: 15px;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.message {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 16px;
+}
+
+.emailBox {
+  width: 60%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.interestBox {
+  //-webkit-appearance: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-left: 5%;
+  width: 35%;
+  float: right;
+}
+
+.error {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 14px;
+  visibility: hidden;
+  color: $red;
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+  margin-top: 15%;
+  padding: 15px;
+  text-decoration: underline;
+  font-size: 12px;
+}
